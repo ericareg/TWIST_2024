@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="conteudo">
+        <header><h2>Aula 2: introdução a formularios</h2></header>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+        <section>
+            <form action="" method="post" name="aula2">
+                Nome: <input type="text" id="nome" name="txtNome" /><br /><br />
+
+                Idade: <input type="text" id="idade" name="txtIdade" /> <br /><br />
+                Senha: <input type="password" id="senha" name="senha" /> <br /><br />
+                url: <input type="url" id="url" name="url" /> <br /><br />
+                <!-- campo oculto não aparece na tela -->
+                <input type="hidden" name="oculto"/><br />
+                <input type="checkbox" name="hobbies" value="serie"/>serie |
+                <input type="checkbox" name="hobbies" value="livros"/>livro |
+                <input type="checkbox" name="hobbies" value="praia"/>praia <br /><br />
+                <input type="radio" name="radio" value="S"/> Sim |
+
+                <input type="radio" name="radio" value="N"/> Não<br /><br />
+                <input type="button" value="mensagem" onclick="alert('Olá! tudo bem?')"/><br/><br/>
+
+                <input type="submit" value="salvar"/>
+
+            </form>
+        </section>
+    </div>
+
+</body>
+
+</html>
