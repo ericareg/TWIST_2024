@@ -1,0 +1,17 @@
+h1{
+    color:cornflowerblue;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+p{
+    color:pink;
+    background-color: rgb(48, 11, 11);
+    font-size: medium;
+    font-family: 'Tahoma';
+}
+
+a{
+    color:pink;
+}
