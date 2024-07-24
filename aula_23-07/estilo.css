@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(165, 125, 132);
+    
+}
+
+#conteudo{
+    background-color: rgb(233, 211, 215);
+    text-align: center;
+    padding: 20px;
+    margin: 100px;
+    
+}
+
+figure{
+    border: 8px rgb(138, 75, 85) solid;
+    text-align: center;
+    display: inline-block;
+    margin:20px;
+    border-radius: 20px;
+}
+
+.im{
+    border-radius: 10px;
+}
