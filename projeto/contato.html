@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="estilos/contato.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="index.html">Início</a> |
+            <a href="sobre.html">Sobre</a> |
+            <a href="contato.html">Contato</a>
+        </ul>
+    </nav>
+
+    <div id="contact" class="container">
+        <h2>📞 Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome 📝:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail 📧:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Assunto 🗂️:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Mensagem 💬:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar 🚀</button>
+        </form>
+        <br />
+        <img src="img/snoopy.gif" alt="GIF de saudação" class="gif">
+
+    </div>
+
+    <script src="scripts/contato.js"></script>
+</body>
+
+</html>

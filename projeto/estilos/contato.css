@@ -1,0 +1,85 @@
+body {
+    font-family: 'Kalnia Glaze', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(187, 151, 157);
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    background-color: #f0d1d1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-family: 'Kalnia Glaze', sans-serif;
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(187, 151, 157);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

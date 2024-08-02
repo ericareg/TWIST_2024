@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100;300;400;500;700&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(187, 151, 157);
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    background-color: #f0d1d1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    font-family: 'Kalnia Glaze', sans-serif; /* Fonte aplicada aos títulos */
+    display: inline-flex;
+}
+
+.gif-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gif {
+    width: 100px;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(187, 151, 157);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#moreInfo {
+    margin-top: 20px;
+}
+
+.container + .container {
+    margin-top: 0;
+}
+
+#bob {
+    width: 500px;
+    height: 500px;
+}
